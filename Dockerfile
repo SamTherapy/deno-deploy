@@ -1,4 +1,4 @@
-FROM denoland/deno:2.1.4 AS base
+FROM denoland/deno:2.2.5 AS base
 
 
 RUN deno install -gArf jsr:@deno/deployctl
